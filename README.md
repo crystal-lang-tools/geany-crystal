@@ -7,7 +7,7 @@ Crystal support for the [Geany editor](https://www.geany.org/).
 - puts `filetypes.Crystal.conf` to `~/.config/geany/filedefs`
 
 - In the menu `Tools` > `Configuration Files` > `filetype_externsions.conf`
-  - In `[Extensions]`, add `Crystal=*.cr;*.crystal;`
+  - In `[Extensions]`, add `Crystal=*.cr;*.ecr;*.crystal;`
   - In `[Groups]` then `Programming=`, add `Crystal;` to the line
 
 # Shortcuts
