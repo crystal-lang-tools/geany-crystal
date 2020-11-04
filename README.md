@@ -7,7 +7,7 @@ Crystal support for the [Geany editor](https://www.geany.org/).
 - puts `filetypes.Crystal.conf` to `~/.config/geany/filedefs`
 
 - In the menu `Tools` > `Configuration Files` > `filetype_externsions.conf`
-  - In `[Extensions]`, add `Crystal=*.cr;*.ecr;*.crystal;`
+  - In `[Extensions]`, add `Crystal=*.cr;*.ecr;`
   - In `[Groups]` then `Programming=`, add `Crystal;` to the line
 
 # Shortcuts
@@ -29,23 +29,17 @@ You can switch from one to another by modifying `~/.config/geany/filedefs/filety
 Configuration: `[styling=Coffeescript]` and `lexer_filetype=CoffeeScript`
 
 - structs and enums can be collapsed
-- heredocs aren't supported (because JavaScript doesn't)
+- heredocs are not highlighted (because JavaScript doesn't)
 - macros syntax are OK
-- method and symbols aren't highlighted
+- methods and symbols aren't highlighted
+- blue color for common methods and related keywords
 
 ## Ruby
 
 Configuration: `[styling=Ruby]` and `lexer_filetype=Ruby`
 
-- support heredocs
-- macro syntax not well supported
+- supports heredocs
+- macro syntax not well supported, and usually mess up the rest of the file
 - struct can't be collapsed
-- standard types aren't highlighted
+- standard and custom types are highlighted the same
 
-## Common
-
-Some non exhaustive features not supported when choosing either `Ruby` or `CoffeeScript`:
-
-- structs
-- enums
-- class and instance variables (including getter, setter etc)
