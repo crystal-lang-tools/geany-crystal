@@ -2,11 +2,15 @@
 
 Crystal support for the [Geany editor](https://www.geany.org/).
 
+See also the [Crystal page of the Geany Wiki](https://wiki.geany.org/config/crystal).
+
 # Installation
 
-- puts `filetypes.Crystal.conf` to `~/.config/geany/filedefs`
+- Copy the filetype
 
-- In the menu `Tools` > `Configuration Files` > `filetype_externsions.conf`
+`cp filetypes.Crystal.conf ~/.config/geany/filedefs`
+
+- In the menu `Tools` > `Configuration Files` > `filetype_extensions.conf`
   - In `[Extensions]`, add `Crystal=*.cr;*.ecr;`
   - In `[Groups]` then `Programming=`, add `Crystal;` to the line
 
@@ -20,7 +24,7 @@ Don't forget to reload after formatting (<kbd>Ctrl</kbd> + <kbd>R</kbd> by defau
 
 # Language issues
 
-Crystal isn't supported officially by Geany, so another close languages has to be chosen instead.
+Crystal isn't supported officially by Geany, so another close language has to be chosen instead.
 We have the choice of either `Ruby` or `CoffeeScript`, here are their pros/cons.
 You can switch from one to another by modifying `~/.config/geany/filedefs/filetypes.Crystal.conf`.
 
@@ -43,3 +47,4 @@ Configuration: `[styling=Ruby]` and `lexer_filetype=Ruby`
 - struct can't be collapsed
 - standard and custom types are highlighted the same
 
+See the [Geany Wiki](https://wiki.geany.org/config/crystal) for more information about this configuration.
