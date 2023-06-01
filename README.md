@@ -48,3 +48,9 @@ Configuration: `[styling=Ruby]` and `lexer_filetype=Ruby`
 - standard and custom types are highlighted the same
 
 See the [Geany Wiki](https://wiki.geany.org/config/crystal) for more information about this configuration.
+
+## Contributors
+
+- [@j8r](https://github.com/j8r) Julien Reichardt - creator, maintainer
+
+[See all contributors](https://github.com/crystal-lang-tools/geany-crystal/graphs/contributors)
